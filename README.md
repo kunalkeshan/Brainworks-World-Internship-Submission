@@ -24,7 +24,7 @@ Access to [Google Sheets](https://docs.google.com/spreadsheets/d/1T44FMKLS_nwWpU
 | --- | --- |
 | ![Save Section](./public/assets/save-section.jpg) | ![Fetch Section](./public/assets/fetch-section.jpg) |
 
-Here's the Zip File: [kunal-keshan-task-1](./kunal-keshan-task-1.rar)
+Here's the Zip File: [kunal-keshan-task-1](./kunal-keshan-task-1.zip)
 
 ### Task 2: UI/UX/SEO Design Sense HTML/CSS
 
