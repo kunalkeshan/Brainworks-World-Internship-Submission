@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kunal Keshan | Task 1</title>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="icon" href="/assets/favicon.png" />
+		<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+	</head>
+	<body>
+		<nav id="#navbar">
+			<div class="container">
+				<a href="/">
+					<img
+						src="/assets/logo-white.png"
+						alt="Brainworks World Logo"
+						class="logo"
+					/>
+				</a>
+			</div>
+		</nav>
+		<main id="main">
+			<section class="section" id="add-section">
+				<h2 class="title">Add a new user</h2>
+				<form id="new-user-form" class="form" autocomplete="off">
+					<label for="firstName" class="form-label">
+						<input
+							type="text"
+							name="firstName"
+							id="firstName"
+							placeholder="First Name"
+							class="input"
+							required
+						/>
+					</label>
+					<label for="lastName" class="form-label">
+						<input
+							type="text"
+							name="lastName"
+							id="lastName"
+							placeholder="Last Name"
+							class="input"
+							required
+						/>
+					</label>
+					<button type="submit" id="new-user-btn" class="btn">
+						Submit
+					</button>
+				</form>
+			</section>
+			<section class="section" id="search-section">
+				<h2 class="title">Search for a user</h2>
+				<form class="form" autocomplete="off">
+					<label for="searchQuery" class="form-label">
+						<input
+							type="text"
+							name="search"
+							id="searchQuery"
+							placeholder="Search User (eg: John Doe)"
+							class="input"
+						/>
+					</label>
+				</form>
+				<div class="container">
+					<h3>Results</h3>
+					<table class="results-table">
+						<tbody id="results">
+							<!-- Results will be appended here -->
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<button id="layout-btn" class="btn">Search Users</button>
+		</main>
+		<div id="modal">
+			<div id="modal-header">Header</div>
+			<div id="modal-content">Modal Content</div>
+			<button id="modal-button" class="btn">Close</button>
+		</div>
+		<script src="/js/index.js" type="module"></script>
+		<script src="/js/modal.js" type="module"></script>
+	</body>
+</html>
