@@ -36,7 +36,7 @@ const handleFetchAllUsers = async () => {
         console.log(error);
         showModal({ header: 'Unable to get all names', content: 'Please try again later.' });
     }
-}; handleFetchAllUsers();
+};
 
 const handleLayoutChange = () => {
     if (CURRENT_TAB === 'add') {
@@ -45,6 +45,7 @@ const handleLayoutChange = () => {
         searchUserSection.style.display = 'block';
         layoutButton.innerText = 'Add User';
     } else {
+        handleFetchAllUsers();
         CURRENT_TAB = 'add';
         addUserSection.style.display = 'block';
         searchUserSection.style.display = 'none';
